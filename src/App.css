@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.home-area {
+  background-position: center center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.element-cover-bg {
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg {
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.customBtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  color: #bebebe;
+  padding: 1em;
+}
+
+.customBtn:hover {
+  cursor: pointer;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-img {
+  background-position: center center;
+  height: 80vh;
+  width: 40vw;
+}
+.customImg {
+  background-position: 80% 0;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 2px 10px 0 rgba(223, 226, 231, 0.16),
+    0 5px 15px 0 rgba(252, 252, 252, 0.12);
 }
