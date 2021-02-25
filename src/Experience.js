@@ -103,7 +103,7 @@ class Experience extends React.Component {
                     >
                       <img
                         className="card-img-top d-none d-lg-block d-xl-block"
-                        src="game.JPG"
+                        src="game.jpg"
                         alt=""
                         style={{ width: "15rem", height: "10rem" }}
                       />
