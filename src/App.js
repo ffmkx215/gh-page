@@ -45,7 +45,7 @@ class App extends React.Component {
         <div className="d-flex h-100 text-center text-white">
           <div
             className="element-cover-bg home-area"
-            style={{backgroundImage:'URL(gh-page/background.jpg)'}}
+            style={{backgroundImage:'URL(background.jpg)'}}
           >
             <div className="cover-container d-flex vw-100 p-3 mx-auto flex-column home-area">
               <header className="mb-auto">
