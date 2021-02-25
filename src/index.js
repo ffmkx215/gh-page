@@ -36,12 +36,12 @@ const Routes = withRouter(({location, history}) => (
       key={location.pathname}
     >
       <Switch location={location}>
-        <Route exact path={'/profile'} component={App} />
-        <Route exact path={'/profile/about'} component={About} />
-        <Route exact path={'/profile/education'} component={Education} />
-        <Route exact path={'/profile/experience'} component={Experience} />
-        <Route exact path={'/profile/challenge'} component={Challenge} />
-        <Route exact path={'/profile/skills'} component={Skills} />
+        <Route exact path={'/gh-page'} component={App} />
+        <Route exact path={'/gh-page/about'} component={About} />
+        <Route exact path={'/gh-page/education'} component={Education} />
+        <Route exact path={'/gh-page/experience'} component={Experience} />
+        <Route exact path={'/gh-page/challenge'} component={Challenge} />
+        <Route exact path={'/gh-page/skills'} component={Skills} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>

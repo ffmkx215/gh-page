@@ -8,23 +8,23 @@ class App extends React.Component {
   }
 
   goToAboutPage = () => {
-    this.goToPage("/profile/about");
+    this.goToPage("/gh-page/about");
   };
 
   goToEducationPage = () => {
-    this.goToPage("/profile/education");
+    this.goToPage("/gh-page/education");
   };
 
   goToExperiencePage = () => {
-    this.goToPage("/profile/experience");
+    this.goToPage("/gh-page/experience");
   };
 
   goToSkillsPage = () => {
-    this.goToPage("/profile/skills");
+    this.goToPage("/gh-page/skills");
   };
 
   goToChallengePage = () => {
-    this.goToPage("/profile/challenge");
+    this.goToPage("/gh-page/challenge");
   };
 
 //   componentDidMount() {
@@ -45,7 +45,7 @@ class App extends React.Component {
         <div className="d-flex h-100 text-center text-white">
           <div
             className="element-cover-bg home-area"
-            style={{backgroundImage:'URL(profile/IMG_4692.jpg)'}}
+            style={{backgroundImage:'URL(gh-page/IMG_4692.jpg)'}}
           >
             <div className="cover-container d-flex vw-100 p-3 mx-auto flex-column home-area">
               <header className="mb-auto">
